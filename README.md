@@ -32,19 +32,38 @@ Below is an outline of the folder structure and contents:
 
 
 ├── README.md # Project orientation and reproduction instructions
+
+
 ├── LICENSE.md # MIT License for all code in this repository
+
+
 ├── SCRIPTS/ # All source code scripts
+
 │ ├── NEED TO COMPELTE AND ADD
+
+
 ├── DATA/
+
 │ ├── liar_dataset.csv # Raw LIAR dataset (or download instructions)
+
 │ ├── liar_metadata.md # Data summary, provenance, ethical notes, dictionary
+
 │ ├── label_distribution.png # Exploratory plot #1
+
 │ ├── speaker_distribution.png# Exploratory plot #2
+
 │ ├── processed_data.csv # Cleaned/final data used in modeling
+
+
 ├── OUTPUT/
+
 │ ├── confusion_matrix.png # Key output figures
+
 │ ├── model_accuracy.txt # Accuracy/results
+
 │ ├── ... # (add any additional output files here)
+
+
 └── REFERENCES.md # Full list of literature and code citations
 
 
