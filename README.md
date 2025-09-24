@@ -31,8 +31,23 @@ To set up all dependencies, refer to `requirements.txt` if provided, or manually
 Below is an outline of the folder structure and contents:
 
 
-git clone https://github.com/SanjayKarun4444/Fake-News-Detection-CS4002-ThunderPandas.git
-cd Fake-News-Detection-CS4002-ThunderPandas
+├── README.md # Project orientation and reproduction instructions
+├── LICENSE.md # MIT License for all code in this repository
+├── SCRIPTS/ # All source code scripts
+│ ├── NEED TO COMPELTE AND ADD
+├── DATA/
+│ ├── liar_dataset.csv # Raw LIAR dataset (or download instructions)
+│ ├── liar_metadata.md # Data summary, provenance, ethical notes, dictionary
+│ ├── label_distribution.png # Exploratory plot #1
+│ ├── speaker_distribution.png# Exploratory plot #2
+│ ├── processed_data.csv # Cleaned/final data used in modeling
+├── OUTPUT/
+│ ├── confusion_matrix.png # Key output figures
+│ ├── model_accuracy.txt # Accuracy/results
+│ ├── ... # (add any additional output files here)
+└── REFERENCES.md # Full list of literature and code citations
+
+
 
 ## Reproduction
 
@@ -40,6 +55,9 @@ To reproduce the results in this repository, follow these steps:
 
 1. **Clone this repository:**
 
+git clone https://github.com/SanjayKarun4444/Fake-News-Detection-CS4002-ThunderPandas.git
+
+cd Fake-News-Detection-CS4002-ThunderPandas
 
 
 2. **Set up the Python environment:**
