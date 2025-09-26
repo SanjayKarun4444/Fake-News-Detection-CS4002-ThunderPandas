@@ -39,49 +39,49 @@ Below is an outline of the folder structure and contents:
 
 ├── SCRIPTS/ # All source code scripts
 
-│ ├──DS4002_Complete_Project1_FakeNewsClassification_ThunderPandas.ipynb
+│ ├──   DS4002_Complete_Project1_FakeNewsClassification_ThunderPandas.ipynb
 
-│ ├──bert_binary_model.py
+│ ├──   bert_binary_model.py
 
-│ ├──adding data into scripts for and adding scripts
+│ ├──   adding data into scripts for and adding scripts
 
-│ ├──bert_multiclass_model.py
+│ ├──   bert_multiclass_model.py
 
-│ ├──requirements.txt
+│ ├──   requirements.txt
 
-│ ├──tf-idf_baseline_model.py
+│ ├──   tf-idf_baseline_model.py
 
 
 ├── DATA/
 
 
-│ ├── READMEdata.md
+│ ├──     READMEdata.md
 
-│ ├── test-test-clean.csv
+│ ├──     test-test-clean.csv
 
-│ ├── test.tsv
+│ ├──     test.tsv
 
-│ ├── train-train-clean.csv
+│ ├──     train-train-clean.csv
 
-│ ├── train.tsv
+│ ├──     train.tsv
 
-│ ├── valid-valid-clean.csv
+│ ├──     valid-valid-clean.csv
 
-│ ├── valid.tsv
+│ ├──     valid.tsv
 
 
 
 ├── OUTPUT/
 
-│ ├──  confusion_matrix_baseline_bert_model.png
+│ ├──     confusion_matrix_baseline_bert_model.png
 
-│ ├── confusion_matrix_binary_baseline_bert.png
+│ ├──     confusion_matrix_binary_baseline_bert.png
 
-│ ├── confusion_matrix_binary_combined_bert_metadata.png
+│ ├──     confusion_matrix_binary_combined_bert_metadata.png
 
-│ ├── confusion_matrix_combined_bert_metadata.png
+│ ├──     confusion_matrix_combined_bert_metadata.png
 
-│ ├── confusion_matrix_tf-idf.png
+│ ├──     confusion_matrix_tf-idf.png
 
 
 └── REFERENCES.md # Full list of literature and code citations
