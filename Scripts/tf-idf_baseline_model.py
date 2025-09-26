@@ -1,3 +1,39 @@
+"""
+===============================================================================
+tf-idf_baseline_model.py
+
+Purpose:
+    Trains and evaluates a logistic regression model using TF-IDF features
+    for fake news classification (baseline). Provides a reference for model
+    performance using classic ML, compared with BERT models.
+
+Authors:
+    Team Thunder Pandas (CS4002, Fall 2025)
+
+Usage:
+    python tf-idf_baseline_model.py
+
+Inputs:
+    - Cleaned LIAR dataset CSV/TSV files
+
+Outputs:
+    - Trained scikit-learn model (optional/manual save)
+    - Baseline performance metrics
+    - Confusion matrix visualizations to OUTPUT/
+
+Requirements:
+    - Python 3.8+
+    - scikit-learn, pandas, numpy, matplotlib
+
+Notes:
+    - Copious inline comments throughout enhance reproducibility.
+    - Block comments mark each functional section.
+
+===============================================================================
+"""
+
+
+
 # ====================================
 # 1. Setup
 # ====================================

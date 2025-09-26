@@ -1,3 +1,39 @@
+"""
+===============================================================================
+bert_binary_model.py
+
+Purpose:
+    Fine-tunes a BERT-based model (using HuggingFace Transformers) for binary 
+    fake news classification. Used on the LIAR dataset to predict truthfulness 
+    as either True or False.
+
+Authors:
+    Team Thunder Pandas (CS4002, Fall 2025)
+
+Usage:
+    python bert_binary_model.py
+
+Inputs:
+    - Preprocessed training, validation, and test CSV/TSV files (LIAR dataset)
+    - Model/configuration parameters set at top of script
+
+Outputs:
+    - Trained model (.pt file)
+    - Performance metrics (accuracy, confusion matrix)
+    - Confusion matrix plot saved to OUTPUT/
+
+Requirements:
+    - Python 3.8+
+    - torch, transformers, pandas, numpy, scikit-learn, matplotlib, tqdm
+
+Notes:
+    - Refer to inline comments throughout for step-by-step explanations.
+    - Change file paths as needed for local/cloud setups.
+
+===============================================================================
+"""
+
+
 # ====================================
 # LIAR Dataset Analysis with BERT
 # ====================================

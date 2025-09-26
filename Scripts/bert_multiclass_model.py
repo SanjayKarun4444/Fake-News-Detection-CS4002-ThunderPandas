@@ -1,3 +1,38 @@
+"""
+===============================================================================
+bert_multiclass_model.py
+
+Purpose:
+    Fine-tunes a BERT-based model for multiclass fake news classification.
+    Predicts the statement label as one of six LIAR truthfulness levels.
+
+Authors:
+    Team Thunder Pandas (CS4002, Fall 2025)
+
+Usage:
+    python bert_multiclass_model.py
+
+Inputs:
+    - Preprocessed LIAR dataset CSV/TSV files
+    - Model hyperparameters
+
+Outputs:
+    - Trained multiclass BERT model
+    - Evaluation metrics (accuracy, recall, F1)
+    - Confusion matrix plots to OUTPUT/
+
+Requirements:
+    - Python 3.8+
+    - torch, transformers, pandas, numpy, scikit-learn, matplotlib, tqdm
+
+Notes:
+    - Script includes extensive comments for clarity.
+    - See docstrings and block comments for each major section.
+
+===============================================================================
+"""
+
+
 # ====================================
 # LIAR Dataset Analysis with BERT
 # ====================================
