@@ -54,24 +54,34 @@ Below is an outline of the folder structure and contents:
 
 ├── DATA/
 
-│ ├── liar_dataset.csv # Raw LIAR dataset (or download instructions)
 
-│ ├── liar_metadata.md # Data summary, provenance, ethical notes, dictionary
+│ ├── READMEdata.md
 
-│ ├── label_distribution.png # Exploratory plot #1
+│ ├── test-test-clean.csv
 
-│ ├── speaker_distribution.png# Exploratory plot #2
+│ ├── test.tsv
 
-│ ├── processed_data.csv # Cleaned/final data used in modeling
+│ ├── train-train-clean.csv
+
+│ ├── train.tsv
+
+│ ├── valid-valid-clean.csv
+
+│ ├── valid.tsv
+
 
 
 ├── OUTPUT/
 
-│ ├── confusion_matrix.png # Key output figures
+│ ├──  confusion_matrix_baseline_bert_model.png
 
-│ ├── model_accuracy.txt # Accuracy/results
+│ ├── confusion_matrix_binary_baseline_bert.png
 
-│ ├── ... # (add any additional output files here)
+│ ├── confusion_matrix_binary_combined_bert_metadata.png
+
+│ ├── confusion_matrix_combined_bert_metadata.png
+
+│ ├── confusion_matrix_tf-idf.png
 
 
 └── REFERENCES.md # Full list of literature and code citations
