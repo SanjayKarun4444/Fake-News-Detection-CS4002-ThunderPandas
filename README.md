@@ -40,10 +40,15 @@ Below is an outline of the folder structure and contents:
 ├── SCRIPTS/ # All source code scripts
 
 │ ├──DS4002_Complete_Project1_FakeNewsClassification_ThunderPandas.ipynb
+
 │ ├──bert_binary_model.py
+
 │ ├──adding data into scripts for and adding scripts
+
 │ ├──bert_multiclass_model.py
+
 │ ├──requirements.txt
+
 │ ├──tf-idf_baseline_model.py
 
 
