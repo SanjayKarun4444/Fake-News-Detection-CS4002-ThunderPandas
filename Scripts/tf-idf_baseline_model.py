@@ -8,7 +8,7 @@ Purpose:
     performance using classic ML, compared with BERT models.
 
 Authors:
-    Team Thunder Pandas (CS4002, Fall 2025)
+    Team Thunder Pandas (DS4002, Fall 2025)
 
 Usage:
     python tf-idf_baseline_model.py

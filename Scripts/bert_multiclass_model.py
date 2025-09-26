@@ -7,7 +7,7 @@ Purpose:
     Predicts the statement label as one of six LIAR truthfulness levels.
 
 Authors:
-    Team Thunder Pandas (CS4002, Fall 2025)
+    Team Thunder Pandas (DS4002, Fall 2025)
 
 Usage:
     python bert_multiclass_model.py
